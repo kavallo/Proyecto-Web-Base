@@ -1,15 +1,15 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="acercade.aspx.vb" Inherits="acercade" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Proyecto Base Bootstrap</title>
+    <title>Proyecto Base Bootstrap - Acerca de...</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="css/StyleSheet.css" rel="stylesheet" />
 
@@ -36,8 +36,8 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Inicio</a></li>
-                        <li><a href="acercade.aspx">Acerca de...</a></li>
+                        <li ><a href="Default.aspx">Inicio</a></li>
+                        <li class="active"><a href="#">Acerca de...</a></li>
                         <li><a href="#contact">Contacto</a></li>
                     </ul>
                 </div>
@@ -48,7 +48,7 @@
         <div class="container">
 
             <div class="starter-template">
-                <h1>Proyecto Base Bootstrap</h1>
+                <h1>Acerca de...</h1>
                 <p class="lead">
                     Proyecto Asp.Net que será utilizado como base para iniciar cualquier proyecto en bootstrap.<br>
                     Este proyecto lo estaremos completando con el tiempo.
